@@ -3,13 +3,16 @@ package stepdefinitions;
 import factory.DriverFactory;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
+import org.apache.logging.log4j.LogManager;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pages.AccountSuccessPage;
 import pages.HomePage;
 import pages.RegisterPage;
 import utils.CommonUtils;
-
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Map;
 
 public class Register {
@@ -17,15 +20,15 @@ public class Register {
     private RegisterPage registerPage;
     private AccountSuccessPage accountSuccessPage;
     private CommonUtils commonUtils;
-
+    private Logger log ;
     @Given("User navigates to Register Account page")
     public void user_navigates_to_register_account_page() {
-
+        log= LogManager.getLogger(this.getClass().getName());
         driver = DriverFactory.getDriver();
         HomePage homePage = new HomePage(driver);
         homePage.clickOnMyAccount();
         registerPage = homePage.selectRegisterOption();
-
+        log.info("User Navigated to Register Page");
     }
 
     @When("User enters the details into below fields")
@@ -40,6 +43,10 @@ public class Register {
         registerPage.enterTelephoneNumber(dataMap.get("telephone"));
         registerPage.enterPassword(dataMap.get("password"));
         registerPage.enterConfirmPassword(dataMap.get("password"));
+        log.info("User Enter FirstName");
+        log.info("User Enter LastName");
+        log.info("User Enter Telephone number");
+        log.info("User Enter password");
 
     }
 

@@ -1,8 +1,10 @@
 package stepdefinitions;
-
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.*;
+//import org.apache.logging.log4j.core.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
@@ -13,11 +15,13 @@ public class Search {
     WebDriver driver;
     private HomePage homePage;
     private SearchResultsPage searchResultsPage;
+    private Logger log ;
 
     @Given("User opens the Application")
     public void user_opens_the_application() {
-
+log=LogManager.getLogger(this.getClass().getName());
         driver = DriverFactory.getDriver();
+        log.info("User navigated application Successfully");
     }
 
     @When("User enters valid product {string} into Search box field")
@@ -25,6 +29,7 @@ public class Search {
 
         homePage = new HomePage(driver);
         homePage.enterProductIntoSearchBox(validProductText);
+        log.info("User entered valid product name");
 
     }
 

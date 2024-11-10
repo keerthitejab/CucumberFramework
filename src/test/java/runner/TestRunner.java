@@ -9,8 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/java/features",
         glue={"stepdefinitions","hooks"},
         publish=true,
-        plugin={"pretty","html:target/CucumberReports/CucumberReport.html"})
-public class TestRunner {
+       //plugin={"pretty","html:target/CucumberReports/CucumberReport.html"})
+        plugin={"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"})
+public class TestRunner  {
 
 
 

@@ -14,9 +14,9 @@ Feature: Registration functionality
   Scenario: User creates an account with all fields
     Given User navigates to Register Account page
     When User enters the details into below fields
-      |firstName	|Arun												|
-      |lastName		|Motoori										|
-      |telephone	|1234567890									|
+      |firstName	|Siva												|
+      |lastName		|kumar										|
+      |telephone	|9791232019									|
       |password		|12345											|
     And User selects Yes for Newsletter
     And User selects Privacy Policy
@@ -26,10 +26,10 @@ Feature: Registration functionality
   Scenario: User creates a duplicate account
     Given User navigates to Register Account page
     When User enters the details into below fields with duplicate email
-      |firstName	|Arun												|
-      |lastName		|Motoori										|
-      |email		|amotooricap4@gmail.com			|
-      |telephone	|1234567890									|
+      |firstName	|siva												|
+      |lastName		|kumar										|
+      |email		|sivakumarmr1@gmail.com			|
+      |telephone	|9791232019									|
       |password		|12345											|
     And User selects Yes for Newsletter
     And User selects Privacy Policy
