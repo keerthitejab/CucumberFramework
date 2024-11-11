@@ -1,0 +1,62 @@
+12:47:15.600 [main] INFO  stepdefinitions.Register - User Enter FirstName
+12:47:15.647 [main] INFO  stepdefinitions.Register - User Enter LastName
+12:47:15.647 [main] INFO  stepdefinitions.Register - User Enter Telephone number
+12:47:15.647 [main] INFO  stepdefinitions.Register - User Enter password
+12:47:24.446 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+12:47:26.695 [main] INFO  stepdefinitions.Register - User Enter FirstName
+12:47:26.696 [main] INFO  stepdefinitions.Register - User Enter LastName
+12:47:26.696 [main] INFO  stepdefinitions.Register - User Enter Telephone number
+12:47:26.696 [main] INFO  stepdefinitions.Register - User Enter password
+12:47:34.870 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+12:47:45.533 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+12:47:55.225 [main] INFO  stepdefinitions.Search - User navigated application Successfully
+12:47:55.719 [main] INFO  stepdefinitions.Search - User entered valid product name
+12:48:02.861 [main] INFO  stepdefinitions.Search - User navigated application Successfully
+12:48:10.076 [main] INFO  stepdefinitions.Search - User navigated application Successfully
+12:57:31.370 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+12:57:32.224 [main] INFO  stepdefinitions.Login - User Enter the user name
+12:57:32.641 [main] INFO  stepdefinitions.Login - User Enter the Password
+12:57:33.382 [main] INFO  stepdefinitions.Login - User click the Login Button
+12:58:23.479 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+12:58:24.240 [main] INFO  stepdefinitions.Login - User Enter the user name
+12:58:24.607 [main] INFO  stepdefinitions.Login - User Enter the Password
+12:58:25.250 [main] INFO  stepdefinitions.Login - User click the Login Button
+12:59:13.281 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+12:59:13.893 [main] INFO  stepdefinitions.Login - User Enter the user name
+12:59:14.217 [main] INFO  stepdefinitions.Login - User Enter the Password
+12:59:14.809 [main] INFO  stepdefinitions.Login - User click the Login Button
+13:00:04.185 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+13:00:04.897 [main] INFO  stepdefinitions.Login - User Enter Invalid Email id
+13:00:05.264 [main] INFO  stepdefinitions.Login - User Enter Invalid Password
+13:00:06.090 [main] INFO  stepdefinitions.Login - User click the Login Button
+13:00:06.331 [main] INFO  stepdefinitions.Login - User able to warning message
+13:00:13.603 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+13:00:14.062 [main] INFO  stepdefinitions.Login - User Enter the user name
+13:00:14.456 [main] INFO  stepdefinitions.Login - User Enter Invalid Password
+13:00:14.869 [main] INFO  stepdefinitions.Login - User click the Login Button
+13:00:22.972 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+13:00:23.726 [main] INFO  stepdefinitions.Login - User Enter Invalid Email id
+13:00:24.103 [main] INFO  stepdefinitions.Login - User Enter the Password
+13:00:24.729 [main] INFO  stepdefinitions.Login - User click the Login Button
+13:00:24.901 [main] INFO  stepdefinitions.Login - User able to warning message
+13:00:35.362 [main] INFO  stepdefinitions.Login - User navigated to Login Page
+13:00:35.791 [main] INFO  stepdefinitions.Login - User not enter the email id
+13:00:36.084 [main] INFO  stepdefinitions.Login - User not entered the password
+13:00:36.639 [main] INFO  stepdefinitions.Login - User click the Login Button
+13:00:36.797 [main] INFO  stepdefinitions.Login - User able to warning message
+13:00:46.200 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+13:00:48.818 [main] INFO  stepdefinitions.Register - User Enter FirstName
+13:00:48.819 [main] INFO  stepdefinitions.Register - User Enter LastName
+13:00:48.819 [main] INFO  stepdefinitions.Register - User Enter Telephone number
+13:00:48.819 [main] INFO  stepdefinitions.Register - User Enter password
+13:00:57.673 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+13:01:00.203 [main] INFO  stepdefinitions.Register - User Enter FirstName
+13:01:00.203 [main] INFO  stepdefinitions.Register - User Enter LastName
+13:01:00.203 [main] INFO  stepdefinitions.Register - User Enter Telephone number
+13:01:00.203 [main] INFO  stepdefinitions.Register - User Enter password
+13:01:09.440 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+13:01:20.529 [main] INFO  stepdefinitions.Register - User Navigated to Register Page
+13:01:30.681 [main] INFO  stepdefinitions.Search - User navigated application Successfully
+13:01:31.292 [main] INFO  stepdefinitions.Search - User entered valid product name
+13:01:38.849 [main] INFO  stepdefinitions.Search - User navigated application Successfully
+13:01:46.630 [main] INFO  stepdefinitions.Search - User navigated application Successfully
