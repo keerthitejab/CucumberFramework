@@ -20,7 +20,7 @@ public class AccountPage {
 
     }
 
-    @FindBy(linkText="Edit your account information1")
+    @FindBy(linkText="Edit your account information")
     private WebElement editYourAccountInformationOption;
 
     public boolean displayStatusOfEditYourAccountInformationOption() {
