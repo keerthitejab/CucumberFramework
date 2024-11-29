@@ -19,6 +19,8 @@ public class HomePage {
 
     }
 
+    //home page changes
+
     @FindBy(xpath="//span[text()='My Account']")
     private WebElement myAccountDropMenu;
 
