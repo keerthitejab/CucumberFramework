@@ -23,6 +23,9 @@ public class RegisterPage {
 
     }
 
+    //System.out.println("i changed some of the changes in the program");
+    //those changes reflected in this page
+
     @FindBy(id="input-firstname")
     private WebElement firstNameField;
 
